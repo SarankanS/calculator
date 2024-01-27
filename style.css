@@ -17,6 +17,8 @@ body{
 .calculator{
     width: 350px;
     background-color: lightgray;
+    border-radius: 5px;
+
 }
 
 button{
@@ -49,8 +51,9 @@ button{
     border-radius: 5px;
     display: flex;
     align-items: flex-end;
-    justify-content: end;
+    justify-content: space-between;
     padding:10px;
+    flex-direction: column;
 }
 h1{
     margin: 0px;
@@ -66,5 +69,8 @@ h1{
 
 #decimal{
     width: 25%;
+}
 
+.delete{
+    background-color: rgb(249, 249, 150);
 }
